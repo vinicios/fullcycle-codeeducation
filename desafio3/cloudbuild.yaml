@@ -7,7 +7,7 @@ steps:
 
   - id: go_build
     name: 'gcr.io/cloud-builders/go'
-    args: ['build', '-o', './desafio3/src/soma', './desafio3/src/soma]
+    args: ['build', '-o', './desafio3/src/soma', './desafio3/src/soma']
     env: ['GOPATH=.']
 
   - id: docker_build
